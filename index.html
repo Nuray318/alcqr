@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медициналық карта</title>
+	<style>
+	body {
+		font-family: Arial, sans-serif;
+		background-color: #f3e5f5; /* Светло-фиолетовый фон */
+		margin: 0;
+		padding: 0;
+	}
+
+	.container {
+		max-width: 600px;
+		margin: 20px auto;
+		padding: 20px;
+		background: white;
+		border-radius: 10px;
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	}
+
+	.profile {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	.profile-img {
+		width: 80px;
+		height: 100px;
+		border-radius: 5px;
+		margin-right: 15px;
+		border: 2px solid #8e24aa; /* Ярко-фиолетовая рамка */
+	}
+
+	.info h1 {
+		font-size: 20px;
+		color: #6a1b9a; /* Тёмно-фиолетовый */
+	}
+
+	.medical-info h2, .emergency-info h2 {
+		font-size: 18px;
+		color: #7b1fa2;
+		border-bottom: 2px solid #8e24aa;
+		padding-bottom: 5px;
+	}
+
+	.data-block, .contact-block {
+		background: #f3e5f5;
+		padding: 10px;
+		margin: 10px 0;
+		border-radius: 5px;
+		border-left: 4px solid #8e24aa;
+	}
+
+	.data-block strong, .contact-block strong {
+		color: #4a148c;
+		font-size: 16px;
+	}
+
+	.data-block p, .contact-block p {
+		margin: 5px 0 0;
+		font-size: 14px;
+		color: #333;
+	}
+
+	.contact-block a {
+		text-decoration: none;
+		color: #7b1fa2;
+		font-weight: bold;
+	}
+
+	.contact-block a:hover {
+		color: #4a148c;
+	}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="109.jpg" alt="Фото 3x4" class="profile-img">
+            <div class="info">
+                <h1>Оразбекова Айханым.</h1>
+            </div>
+        </div>
+
+        <div class="medical-info">
+            <h2>Медициналық мәліметтер:</h2>
+
+            <div class="data-block">
+                <strong>Қан тобы:</strong>
+                <p>II</p>
+            </div>
+
+            <div class="data-block">
+                <strong>Резус-фактор:</strong>
+                <p>Теріс</p>
+            </div>
+
+            <div class="data-block">
+                <strong>Аурулар тарихы:</strong>
+                <p>Орташа сатысындағы Альцгеймер ауруы.</p>
+            </div>
+
+            <div class="data-block">
+                <strong>Жарақаттар:</strong>
+                <p>Сол жақ білектің ашық сынығы.</p>
+            </div>
+
+            <div class="data-block">
+                <strong>Өткен операциялар:</strong>
+                <p>Көрсетілмеген.</p>
+            </div>
+
+            <div class="data-block">
+                <strong>Соңғы 6 айдағы диагноздар:</strong>
+                <p>Соңғы 6 айда көрсетілмеген.</p>
+            </div>
+
+           <div class="data-block">
+    <strong>Анализдер, ЭКГ, рентген (соңғы 6 айдағы):</strong>
+    <p><a href="https://www.kdlolymp.kz/pricelist/aktobe">Жалпы қан анализі (20.03.2025)</a></p>
+</div>
+
+
+            <div class="data-block">
+                <strong>Қарсы көрсетілімдер (аллергияны қоса):</strong>
+                <p>Пенициллинге аллергия.</p>
+            </div>
+
+            <div class="data-block">
+                <strong>Бойы, салмағы:</strong>
+                <p> 65 кг / 165 см</p>
+            </div>
+
+            <div class="data-block">
+                <strong>Психикалық жағдайы:</strong>
+                <p>Тұрақты.</p>
+            </div>
+        </div>
+
+        <div class="emergency-info">
+            <h2 style="color: red"> Жедел байланыс</h2>
+
+            
+			<div class="contact-block">
+    <strong style="color: red">Жақын адамның нөмірі:</strong>
+           <p><a href="tel:+77751676337">+7 (775) 167-63-37</a></p>
+            </div>
+			<div class="contact-block">
+                <strong style="color: red">Жақын адамның нөмірі:</strong>
+                <p><a href="tel:+77021495645">+7 (702) 149-56-45</a></p>
+            </div>
+			<div class="contact-block">
+                <strong style="color: red">Учаскелік дәрігердің нөмірі:</strong>
+                <p><a href="tel:+77071687052">+7 (707) 168-70-52</a></p>
+            </div>
+
+            <div class="contact-block">
+                <strong style="color: red">Жедел жәрдем (103):</strong>
+                <p><a href="tel:103">103</a></p>
+            </div>
+
+            <div class="contact-block">
+                <strong style="color: red">Төтенше жағдайлар қызметі (112):</strong>
+                <p><a href="tel:112">112</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
